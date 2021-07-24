@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    border: 0;
+    padding:0;
+    background: #fafafa;
+}
+
+.main {
+    background: #fafafa;
+}
+
+.box_img {
+    background: #fff;
+    width: auto;
+    height:auto;
+    flex:1;
+}
+
+.box_form {
+    width: 350px;
+    height: 379px;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    flex: 2; 
+}
+
+.logo {
+    margin: 10px;
+    size: 50%;
+}
