@@ -2,50 +2,73 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Instaclone</title>
-        <meta name="description" content="">
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
     <body>
-        <div class="main">
-
-            <div class="box_img">
-                <img src =# alt="exibiçao instagram smartphones">
-            </div>
-            <div class="box_form">
-                <div class="logo">
-                    <img src= z:/myRepository/img/Instaclone.logo.PNG alt="logomarca instaclone">
+        <div class ="wraper">
+            <div class="main">
+                <div class="left-wd"> 
+                    <img id="img-smart" src="img/instagram-celular.png" alt="smartphone exibe instaclone">
                 </div>
-                <form>
-                    <div class="inputname">
-                        <input type="text">
+                <div class="right-wd">
+                    <div class="right-wd-main">
+                        <div class="img-logo">
+                            <img id="img-clone" src="img/Instaclone.logo.PNG">
+                        </div>
+                        <form>
+                            <div class="input-box-login"><input type="text" placeholder="Telefone, nome de usuário ou e-mail"></input></div>
+                            <div class="input-box-pwd"><input type="text" placeholder="Senha"></input></div>
+                            <div id="submit-btn">
+                                <button type="submit" placeholder="Entrar"> Entrar</button>
+                            </div>
+                            <div><p class="or-or">OU</p></div>
+                            <div><p class="fb-in">Entrar com facebook</p></div>
+                            <div><a class="pwd-fgt" href=#>Esqueceu a senha?</a></div>
+                        </form>
                     </div>
-                    <div>
-                        <input type="text">
+                    <div class="cadastro">
+                        <p class="plink">Não tem uma conta?<a class="alink" href=#>Cadastre-se</a></p>
                     </div>
-
-                </form>
+                    <div class="get-app">
+                        <div class="txt-app"><p>Obtenha o aplicativo</p></div>
+                        <div class="app-str">
+                            <div><img class="btn" src="img/apple-button.png"></div>
+                            <div><img class="btn" src="img/googleplay-button.png"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <footer>
-                <div class="links">
-                    <a href=#>Sobre</a>
-                    <a href=#>Blog</a>
-                    <a href=#>Carreiras</a>
-                    <a href=#>Ajuda</a>
-                    <a href=#>API</a>
-                    <a href=#>Privacidade</a>
-                    <a href=#>Termos</a>
-                    <a href=#>Principais contas Hashtags</a>
+                <div class="ft-sl">
+                    <div class="about">
+                        <div class="ctn-about"><a class="at" href=#>Sobre</a></div>
+                        <div class="ctn-about"><a class="at" href=#>Blog</a></div>
+                        <div class="ctn-about"><a class="at"  href=#>Carreiras</a></div>
+                        <div class="ctn-about"><a class="at"  href=#>Ajuda</a></div>
+                        <div class="ctn-about"><a class="at"  href=#>API</a></div>
+                        <div class="ctn-about"><a class="at"  href=#>Privacidade</a></div>
+                        <div class="ctn-about"><a class="at"  href=#>Termos</a></div>
+                        <div class="ctn-about"><a class="at"  href=#>Principais</a></div>
+                        <div class="ctn-about"><a class="at"  href=#>Hashtags</a></div>
+                        <div class="ctn-about"><a class="at"  href=#>Localizações</a></div>
+                    </div>
                 </div>
-                <div class="lang">
-                    <select name="trocar idioma de exibição" id="any">
-                        <option value="af">Afrikaans</option>
-                        <option value="pt">Português</option>
-                        <option value="en">Inglês</option>
-                        <option value="es">Espanhol</option>
-                    </select>
-                </div>
-                    <a href=#>© 2021 Instagram do Facebook</a>
+                <div class="rdp">
+                    <div class="lang">
+                        <select>
+                            <option value="pt-br">Português (Brasil)</option>
+                            <option value="us">Inglês</option>
+                            <option value="es">Espanhol</option>
+                            <option value="fr">Francês</option>
+                            <option value="gr">Alemão</option>
+                        </select>
+                    </div>
+                    <div class="cpy">
+                        <p>© 2021 Instagram do Facebook</p>
+                    </div>
                 </div>
             </footer>
         </div>
